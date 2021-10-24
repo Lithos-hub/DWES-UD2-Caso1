@@ -1,0 +1,55 @@
+.navbar {
+    height: 3.5em;
+    background: #151515;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+}
+
+ul {
+    display: flex;
+    padding-block: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.menu-item {
+    text-align: center;
+    list-style: none;
+    width: 10em;
+    margin-inline: 1em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-block: 100%;
+}
+
+button {
+    background: #eea238;
+}
+
+button a {
+    color: black;
+}
+
+.main-section {
+    position: relative;
+    top: 4em;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.centered {
+    text-align: center;
+    font-size: 34px;
+    color: green;
+    font-family: fantasy;
+}
